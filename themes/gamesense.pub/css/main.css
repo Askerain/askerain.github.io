@@ -2317,7 +2317,6 @@ path[d*="M12 2C6.486 2 2 6.487 2 12C2 17.515 6.486 22 12 22C17.514 22 22 17.515 
     color:rgb(150,150,150) !important
 }
 .placeholder-37qJjk, .textArea-12jD-V .markup-2BOw-j {
-    top:13px;
     color:rgb(200,200,200)
 }
 .inner-MADQqc {
@@ -2847,35 +2846,21 @@ path[d*="M12 2C6.486 2 2 6.487 2 12C2 17.515 6.486 22 12 22C17.514 22 22 17.515 
 	margin-top:6px !important;
 }
 
-
 /* vc connected */
 .da-panels .da-inner {
 	margin:0;
-/*
-
-
-    border: 1px solid rgb(16,16,16);
-    outline: 1px solid rgb(50,50,50) !important;
-    background-color: rgb(25,25,25) !important;
-    color: rgb(147,174,33) !important;
-	
-	
-	background-color: rgb(17,17,17) !important;
-    margin-left: 20px;
-    border: 1px solid #303030;
-    outline: 1px solid #121212;
-	
-	
-	
-	.barFill-23-gu- {
-    background: rgb(152,196,37);
-    background: linear-gradient(180deg, rgba(152,196,37,1) 0%, rgba(105,149,4,1) 100%); 
 }
-	
+
+
+/* oct 6 2020
+	fix the message bar
 */
-
-
-
+.da-slateTextArea {
+	font-size:7pt !important;
+}
+.da-placeholder {
+	line-height: 18px;
+}
 
 
 
