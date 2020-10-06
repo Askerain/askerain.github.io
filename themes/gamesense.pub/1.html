@@ -31,9 +31,9 @@ I probably won't fix this theme if Discord decides to recode its elements. I'm t
       </div>
        <div class="option2">
         <h1 class="header">Download</h1>
-         <p class="text" title="download">You can download this theme through GitHub:</p>
-         <a href="https://github.com/askerain"><div class="button">Download from GitHub</div></a>
-         
+        <p class="text" title="download">Click this button to download it!</p>
+        <a href="http://zurmely.com/assets/downloadmanager/click.php?id=1"><div class="button">Direct download</div></a>
+        <p class="text" title="warning">Note that this style is unfinished and there are elements that aren't themed.</p>
       </div>
     </div>
   </div>
@@ -146,6 +146,11 @@ body {
 .title::before {
   content: url('images/button.png');
   margin-right: 10px;
+}
+[title~="download"]::before {
+  content: url('images/button.png');
+  margin-right: 10px;
+  margin-left: -18px;
 }
 .text {
   font-size: 7pt;
