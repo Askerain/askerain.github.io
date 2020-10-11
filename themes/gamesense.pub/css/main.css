@@ -2863,4 +2863,29 @@ path[d*="M12 2C6.486 2 2 6.487 2 12C2 17.515 6.486 22 12 22C17.514 22 22 17.515 
 }
 
 
+/* oct 10 2020 
+	fix more things
+*/
+
+.da-userPopout .da-body {
+	background:var(--background-primary);
+    padding: 15px 8px 12px 11px;
+}
+.da-userPopout .da-bodyNormal {
+	background:var(--inside-container) !important;
+	border:var(--inside-border);
+}
+.da-userPopout .da-activity {
+	background:var(--background-primary);
+	border:none;
+	padding:0 20px;
+	padding-top:20px;
+	margin-left:1px;
+	margin-right:-1px;
+}
+.da-userPopout .da-activity .da-headerText {
+	margin-bottom:-8px;
+	margin-left:11px;
+	font-size:7pt !important;
+}
 
