@@ -63,6 +63,10 @@
     --interactive-active: rgb(200,200,200);
     --background-primary: #141414 url("https://i.imgur.com/DB1HxUJ.png");
 	--scrollbar-auto-track: #606060;
+	/* oct 10 2020 */
+	--inside-container: rgb(17,17,17);
+	--inside-border: 1px solid #303030;
+	--inside-outline: 1px solid #121212;
  
 }
 button {
@@ -438,10 +442,10 @@ line[style*="stroke: red;"] {
     border-radius: 0 !important;
 }
 .headerNormal-T_seeN {
-    background: #141414 url("https://i.imgur.com/SaUOXvk.png") !important;    
+    background: var(--background-primary) !important;    
 }
 .bodyInner-245q0L {
-    background: url("https://i.imgur.com/SaUOXvk.png") !important;
+    background: var(--background-primary) !important;
 }
 .note-3HfJZ5 textarea {
     margin-left:15px;
@@ -498,7 +502,7 @@ line[style*="stroke: red;"] {
     display:none;
 }
 .headerPlaying-j0WQBV, .headerStreaming-2FjmGz, .headerSpotify-zpWxgT {
-    background: url("https://i.imgur.com/SaUOXvk.png") !important;
+    background: var(--background-primary) !important;
 }
 .activity-11LB_k  {
     background-color: rgb(17,17,17) !important;
@@ -540,7 +544,7 @@ span.playTime-2uWd1Z {
 /* popout user profile */
 .root-SR8cQa {
     border-radius:0 !important;
-    background: url("https://i.imgur.com/SaUOXvk.png") !important;
+    background: var(--background-primary) !important;
     font-family: Verdana, serif;
     border:1px solid #303030 !important;
     outline:1px solid #121212 !important;
@@ -615,7 +619,7 @@ span.playTime-2uWd1Z {
     border-bottom: 1px solid rgb(17,17,17) !important;
     margin-bottom: -1px !important;
     padding: 0 20px !important;
-    background: url("https://i.imgur.com/SaUOXvk.png") !important;
+    background: var(--background-primary) !important;
 }
 .top-28JiJ- .item-PXvHYJ, .top-28JiJ- .item-PXvHYJ:hover {
     padding: 0 21px !important;
@@ -1305,7 +1309,7 @@ path[d*="M12 2C6.486 2 2 6.487 2 12C2 17.515 6.486 22 12 22C17.514 22 22 17.515 
 
 /* nitro page */
 .applicationStore-1pNvnv {
-    background: #141414 url("https://i.imgur.com/SaUOXvk.png");
+    background: var(--background-primary);
     font-family: Verdana;
 }
 .homeWrapperNormal-2KSUEa {
@@ -1586,7 +1590,7 @@ path[d*="M12 2C6.486 2 2 6.487 2 12C2 17.515 6.486 22 12 22C17.514 22 22 17.515 
 }
 /* library */
 .base-3dtUhz {
-    background: #141414 url("https://i.imgur.com/SaUOXvk.png");
+    background: var(--background-primary);
 }
 .gameLibrary-TTDw4Y, .root-1BQpZw, .container-3gCOGc, .activityFeed-1C0EmJ {
     font-family: Verdana;
@@ -2853,8 +2857,9 @@ path[d*="M12 2C6.486 2 2 6.487 2 12C2 17.515 6.486 22 12 22C17.514 22 22 17.515 
 
 
 /* oct 6 2020
-	fix the message bar
+	fix things
 */
+
 .da-slateTextArea {
 	font-size:7pt !important;
 }
@@ -2888,4 +2893,3 @@ path[d*="M12 2C6.486 2 2 6.487 2 12C2 17.515 6.486 22 12 22C17.514 22 22 17.515 
 	margin-left:11px;
 	font-size:7pt !important;
 }
-
